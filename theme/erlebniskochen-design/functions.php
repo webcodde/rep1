@@ -21,9 +21,9 @@ if (!function_exists('erlebniskochen_theme_setup')):
         add_theme_support('post-formats', array('aside', 'image', 'gallery', 'link', 'quote', 'status', 'video', 'audio', 'chat'));
 
     		register_nav_menus( array(
-    		  'primary' => __( 'Primary Menu','slitwp' ),
-    		  'top' => __( 'Top Menu','slitwp' ),
-          'footer' => __('Footer Menu','slitwp'),
+    		  'primary' => __( 'Primary Menu','slit' ),
+    		  'top' => __( 'Top Menu','slit' ),
+          'footer' => __('Footer Menu','slit'),
     		 ) );
 
         require_once ( get_template_directory() .'/includes/custom-post-types.php');
