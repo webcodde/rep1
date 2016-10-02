@@ -1,0 +1,610 @@
+/* ************* Media Queries ****************** */
+@media only screen and (min-width:2100px) {
+	.tourParallax .parallaxImg img { margin-top: -10%; }
+}
+@media only screen and (max-width: 1440px) { 
+	#nav li { margin-right:46px; }	
+	.menubar { max-width: 680px; width: 100%; text-align:right;}
+	.topbarWrapper { text-align: right; }
+	#gutscheineSlider .bx-pager { bottom: 20px; }
+	#header { text-align: right;}
+    .logodummydiv{display: none;}
+}
+@media only screen and (max-width: 1366px) {
+
+	#logo { width: 100%; max-width: 297px; float: left; margin: 0; padding: 0 15px;}
+	
+	.actualCourseList { width: 95%; }
+	.actualCourseList li { width: 23%; }
+	.actualCourseList li + li { margin-left: 2.6667%; }
+	.actualCourseList .btns .btn {min-width: 85px;}
+	
+	.aktuelle-kochkurse-inner .actualCourseList li {width: 30%;}
+
+	.tourParallax .parallaxImg img { height: 100%; }
+	.hamburgLocationImg {width: 49%;}
+	.sideStrip.small {top: 0;}
+	
+	.indexBanner .sliderBanner .item { height: auto; }
+	.indexBanner { height: auto; }
+
+}
+
+/*@media only screen and (max-width: 1200px) {	
+}*/
+
+@media only screen and (min-width: 993px) {
+	#nav ul {display:block !important;}
+}
+
+@media only screen and (max-width: 1024px) {
+	/* .topbarWarenkorb .hide800 { display: none; } */
+	/*.topbar a.topbarWarenkorb { margin: -1px 0 0 35px;} */
+}
+
+@media only screen and (max-width: 992px) {
+	#gutscheineSlider .bx-pager {bottom: 10px;}
+	.row { max-width: 750px; }
+	.kontaktleft, .kontaktRight { width: 49%; }
+	.inlineBox .postleitzahl { margin-bottom: 10px; width: 100%; }
+	.inlineBox .ort { width: 100%; }
+	.inlineBox .Wunschtermin { margin-bottom: 10px; width: 100%; }
+	.inlineBox .locationWunsch { width: 100%; }
+	.inlineBox .customCheckbox { margin-bottom: 10px; margin-right: 0; width: 100%; }
+	.kontaktMssg {width: 60%;}
+
+	.anfahrtZumLoft h2, .anfahrtZumHaus h2 { font-size: 28px; margin-bottom: 30px; }
+
+	.erlebniskochenList .kochenListMain .erlebniskochenContent { margin-bottom: 20px; padding: 0 0 20px; width: 100%; border-top: none; }
+	.erlebniskochenList .kochenListMain h3 { font-size: 28px; line-height: 30px; }
+	.erlebniskochenList .kochenListMain .erlebniskochenImg { margin-left: 0; width: 100%; }
+	.teamGroupList ul li { height: 100%; width: 33.333%; max-height: 217px; }
+	.teamGroupList ul li img { display:  inline-block; }
+	.teamGroupList img { width: 100%; }
+	.erlebniskochenImg .teamGroupList a {display: inline-block; width: 100%; height: 100%;}
+	.anfahrtZumMain, .erlebniskochenList { padding: 40px 0; }
+	.erlebniskochenList .teamGroupList ul li .teamMain { padding: 25% 0; }
+	.kochkurse-teamevent { padding: 25px; }
+	.kochkurse-teamevent h2 { font-size: 36px; margin-bottom: 10px; }
+	.kochkurse-teamevent span { font-size: 22px; margin-bottom: 10px; }
+
+	#gutscheineSlider .bx-viewport { height: 180px !important; }
+	#gutscheineSlider h1 { top:30%; }
+	h1.kurseslider { top: 50% !important; }
+	#tribe-events .bannerHight h1 { letter-spacing: 4px; font-size: 35px; margin: -32px 0 0;}
+
+	.zurUbersichtSlider { width: 100%; margin-bottom: 20px;}
+	.thumbsSlider { margin-bottom: 30px; }
+	.thumbsSlider .bx-wrapper { height: auto; }
+	.thumbsScrollSlider .bx-pager ul li { position: relative; width: auto!important; }
+	.bx-pager img { width: auto; }
+	.bx-wrapper li img { width: 100%; }	
+	.verticalSliderWrap .bx-pager img {width: 100%;}
+
+	.asidebar {float: left; width: 100%;}
+	.gutscheinBestellen {background-color: #f0f0f0;}
+	.gutscheinStaff { margin: 0 auto; padding-top: 20px; width: 312px; }
+	.erlebniskochenLoft { background-color: #f0f0f0; margin: 0 auto; padding: 20px; width: 100%; }
+
+	#optionen li { width: 24%; }
+	#optionen li + li { margin-left: 1.333%; }
+	#optionen li { margin-bottom: 24px; }
+	/*.asidebar {clear: both; float: none; margin: 0 auto 30px;}*/
+
+	.Ohnequotes { margin: 0 auto 20px; padding: 20px 0; width: 100%; }
+	.Ohnequotes h2 { font-size: 40px; line-height: 40px; }
+
+	.bannerHight h1 {font-size: 38px; margin: -22px 0 0;}
+	.bannerHight h1 span {font-size: 20px; line-height: normal;}
+
+	.smallMap { width: 100%; }
+	.locationMap {padding: 30px 0;}
+	.locationListingWrap {padding: 30px 0;}
+
+	.locationMap .asidebar {width: 100%;}
+	.teamGroupList {margin-bottom: 30px;}
+	.teamGroupList h3 { margin-bottom: 30px; }
+
+	.locationList li { float: left; margin: 0 2% 22px; width: 48%; }
+	.locationList li:nth-of-type(2n+1) { clear: both; margin-left: 0; margin-right: 2%; }
+	.locationList li:nth-child(2n) { margin-right: 0; }
+	.locationList li:nth-of-type(3n+1) { clear: none; }
+
+	.locationList .verticalSlider li, .locationList .bx-viewport { width: 100% !important; }
+	.locationList .verticalSlider li a img { width: 100%; }
+	.verticalSliderWrap { background-color: #f0f0f0; }
+	.verticalSliderWrap .bx-wrapper { width: 67%; }
+	.verticalSliderWrap .bx-pager { width: 33%; }
+	.locationList li li {margin: 0; width: 100%;}
+
+	.staffMain { text-align: center; width: 50%; }
+
+	.kochkurseTeameventList { margin-bottom: 50px; padding-bottom: 50px; }
+	/*.kochkurseTeameventList .teameventMain { margin-bottom: 30px; }*/
+	.kochkurseTeameventList .teameventMain .teameventImg { margin-right: 0; width: 50%; }
+	.kochkurseTeameventList .teameventMain .teameventContent { min-height: 250px; padding: 20px 0; width: 45%; }
+	.kochkurseTeameventList .teameventMain h3 { font-size: 20px; line-height: 22px; margin-bottom: 10px; }
+	.kochkurseTeameventList .teameventMain p { font-size: 14px; line-height: 26px; }
+	.kochkurseTeameventList .teameventMain .teameventContentLeft { width: 50%; }
+	.kochkurseTeameventList .teameventMain .teameventImgRight { width: 50%; }
+	.blockContent .blockContentMain h3 { font-size: 20px; line-height: 22px; margin-bottom: 20px; }
+	.blockContent {margin-bottom: 30px;}
+
+	.sieGenuss { padding: 25px; }
+	.sieGenuss h2 { font-size: 36px; margin-bottom: 10px; }
+	.sieGenuss span { font-size: 22px; margin-bottom: 10px; }
+	.termin-oder-flexibel { margin: 0 auto 50px; }
+	.gutscheinBlock h3 { margin-bottom: 30px; }
+	.gutscheinBlock ul li { float: left; margin-right: 23px; text-align: center; width: 30%; }
+	.gutscheinBlock ul li p {margin-bottom:0;}
+	.auf-die-merkliste .btns .btn {min-width: 200px; }
+
+	/*.gruppen-inner-banner, .team-banner { height: 445px; }*/
+
+	.footerLeft img { margin: 0 0 60px; }
+	.footerLeft { float: left; width: 46%; }
+	.footerRight { float: right; width: 50%; }
+
+	/*#logo { float: left; margin: 0 0 10px; padding: 10px 0; text-align: center; width: 100%; }
+	.topbar { height: auto; margin-bottom: 15px; padding:0 20px;}*/
+
+	/* .iconBox { width: auto; max-width: inherit; margin: 20px 2.5%; position: inherit; left: 0; }
+	.iconBox li { max-width: 32%; margin-right: 2%; } .iconBox li:last-child { margin-right: 0; }
+	.iconBox li a { border: 1px solid #bb9e62; } */
+	/* .sideStrip { top: 0; } */
+	.iconBox { max-width: 543px; height: 181px; margin: -90.5px 0 0 -271.5px; }
+	.iconBox li { max-width: 181px; }
+	.iconBox li a { padding: 32px 0 21px; letter-spacing: 0.1em; font-size: 14px; }
+	.iconBox li .icon {height: 60px; width: 60px;}
+
+
+	.actualCourseList .tribe-events-event-image { height: 210px; overflow: hidden; margin-bottom: 10px; }
+	.actualCourseList li {margin-bottom: 2%; margin-right: 0; width: 49%;}
+	.actualCourseList li:nth-child(even) {margin-right: 0;}
+	.actualCourseList li + li { margin-left: 2%; }
+	.actualCourseList li:nth-of-type(2n+1) { margin-left: 0; clear: both; }
+	.actualCourseList li img { width: 100%; height: 100%; object-fit: cover; }
+	.aktuelle-kochkurse-inner .actualCourseList li { width: 47%; margin-right: 0;}
+	.aktuelle-kochkurse-inner .actualCourseList li + li { margin-left: 3%; }
+	.aktuelle-kochkurse-inner .actualCourseList > li:nth-child(2n+1) {margin-left: 0; clear: both;}
+	.aktuelle-kochkurse-inner .actualCourseList > li:nth-child(2n) {margin-right: 0; margin-left: 3%;}
+
+/*	.aktuelle-kochkurse-inner .actualCourseList > li:nth-child(3n+3) {margin-right: 2%;}
+	.aktuelle-kochkurse-inner .actualCourseList > li:nth-child(3n+6) {margin-right: 0;}
+	.aktuelle-kochkurse-inner .actualCourseList > li:nth-child(3n+9) {margin-right: 2%;}
+	.aktuelle-kochkurse-inner .actualCourseList > li:nth-child(3n+12) {margin-right: 0;} */
+
+	.newsLetter { height: auto; padding: 80px 0; }
+	.newsLetter h2 {font-size: 50px; line-height: 50px;}
+
+	.firmenGruppen {padding: 55px 0; }
+	.firmenGruppenBlock {border-bottom: 1px solid #c3a974; border-top: medium none; float: none; margin: 0 0 30px; padding: 0 0 20px; width: 100%; }
+	.btnMenus li {display: inline-block; }
+	.btnMenus li a {line-height: 30px; padding: 5px 20px; }
+	.fadeImgsOuter {position: relative;}
+	.fadeImgsBlock {float: none; position: relative; width: 100%; }
+	.fadeImgs { width: 100%; display: block; padding-bottom: 10px; }
+	.fadeImgs img { width: 48.5%; }
+	.firmenGruppenBlock h2 { font-size: 40px; line-height: 40px; margin-bottom: 20px; }
+
+	.tipBox h2 { font-size: 40px; }
+	.actualCourse h2, .hamburgLocation h2 { font-size: 28px; margin-bottom: 50px; padding: 0 20px; }
+
+	/* #header { padding: 12px 0 15px; } */
+	.callUs { text-align: right; }
+
+	nav#mainNav { display: block; width: 100%; float: left; height: 45px;}
+	/* .indexBanner { margin-top: 0; padding: 0 0 20px;} */
+	.indexBanner { margin-top: 109px; }
+
+	.topMenu li { display: inline-block; float: none; }
+
+	.menubar { width: auto; float: none; clear: both; padding: 15px 0 0; margin-right: 15px; }
+
+	.topbar {width: 100%; text-align:right;}
+	.topbarWarenkorb { margin: 0 0 0 1em; }
+	    
+	.sideStrip { width: 312px; height: 190.5px; }
+	.sideStrip span { margin: 19px 0 0 125px; font: 14px 'AvenirHeavy'; }
+	/*Navigation*/
+	nav#mainNav {background-color: #b59d69;}
+	#nav {display:none;position:absolute;left:0;right:0; background: #b59d69; z-index: 99;}
+	#nav ul{background:#b59d69; transform: none;}
+
+	/* #mainNav .toggleMenu.active + .menuPart { margin-top: 25px; } */
+	.toggleMenu, #nav .menuIcon {display:block; color: #b59d69; outline:none; padding: 10px 15px;}
+	#toggleMenu { padding: 10px 15px; margin: 0px 0 25px 0; }
+	.toggleMenu:hover, .toggleMenu:focus { text-decoration: none; outline: 0; }
+
+	#nav li {float:none;display:block;border:none; margin-right:0;}
+	#nav li a{ color:#fff; padding-right: 30px;}
+	#nav li.parent {position:relative;}
+	#nav li .menuIcon, #nav li li .menuIcon { width: 40px; height: 40px; position: absolute; cursor: pointer; color: #fff; z-index: 104; top: 4px; font-style: normal; right: 0; text-align: center; background: none;}
+	#nav li .menuIcon.active, #nav li li .menuIcon.active {background-color:#b59d69;}
+	#nav li > a:hover, #nav li.hover > a, #nav li.active > a, #nav li ul li a:hover, #nav li ul li > a.selected, #nav ul a:hover, .noJS #nav ul a:focus, #nav ul a.selected, #nav > li > a:hover, #nav > li.hover > a, #nav > li.focus > a {background-color: #b59d69;color: #fff;}
+	#nav ul {width:100%;display:none;position:static;transition:none;-webkit-transition:none;}
+	.hasJS #nav ul{opacity:1;}
+	#nav li ul li, #nav ul a {width:100%}
+	#nav > li:hover > ul, #nav li li:hover > ul, #nav li li li:hover > ul {display:none;}
+	#nav ul, #nav *:hover ul ul, #nav .hover ul ul, #nav .focus ul ul {margin-left:0;}
+	#nav li a {padding-left:15px;padding-right:45px;display:block;line-height:40px;font-size:14px;}
+	#nav li ul li a {padding:7px 55px 7px 25px; display:block;line-height:21px; color:#fff;border:none; text-align:left; font-size: 14px;}
+	#nav li ul li ul li a {padding-left:45px;background-position:33px center}
+	#nav li ul li ul li ul li a {padding-left:60px;background-position:45px center}
+	#nav > li > a:hover, #nav > li.hover > a, #nav > li.focus > a, #nav > .highlight > a { background-color: #b59d69; color: #fff;}
+	#nav li ul li a:hover, #nav li ul li > a.selected, #nav ul a:hover, .noJS #nav ul a:focus, #nav ul a.selected, #nav ul > .highlight > a {background-color: #b59d69;color: #fff;}
+	#nav > li > a:hover, #nav > li.hover > a, #nav > li.focus > a, #nav > .highlight > a, #nav > li.active > a, #nav > li li.active > a { color: #ffffff; }
+	
+	.zurUbersicht-banner, .gruppen-inner-banner, .gutscheine-inner-banner, .aktuelle-kochkurse-banner { height: 180px;}
+	.team-banner .img { overflow: hidden; height: 300px; }
+	.img .helper + h1 { margin: -195px 0 0; font-size: 35px; }
+	.bannerHight h1 span, .img .helper + h1 span { font-size: 54%; letter-spacing: 0.2em; }
+	#tribe-events .bannerHight h1 span { letter-spacing: 3px; }
+	.kontaktMain {margin-top: 148px;}
+
+	.actualCourseList .btns .btn { min-width: 96px; }
+
+	.kontaktRight textarea { height: 220px; }	
+	
+	/* .bannerSpacing {padding: 0;} */
+	/* .iconBox {height: auto; margin-bottom: 0;} */
+	
+	.tourParallax { margin-top: 23px; padding: 0; position: inherit; }
+	.tourParallax .parallaxImg { height: auto; position: relative; }
+	.tourParallax .parallaxImg img {height: auto;}
+	.tipBox { max-width: 100%; padding: 25px 0 40px;}
+	.gruppen-inner-banner {height: 450px;}
+	
+	.actualCourse, .hamburgLocation {padding: 30px 0 20px;}
+	.actualCourse h2, .hamburgLocation h2 {margin-bottom: 30px;}
+	
+	/*.actualCourse, .hamburgLocation {padding: 20px 0 20px;}*/
+	    .gutschein-code-eingeben {
+    width: calc(48% - 10px);
+    width: 45%;}
+    .gutschein-code-eingeben input[type="text"]{
+    	margin-bottom: 10px;
+    	max-width: 245px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+	/*Responsive Table*/
+	.responsiveTable, .responsiveTable tr, .responsiveTable td, .responsiveTable td:before { display:block; text-align:left; border:none;	/* Converts a table, table row, table column and table column:before into a block element */ }
+	.responsiveTable, .responsiveTable tr, .responsiveTable td:last-child { border-bottom:none; }
+	.responsiveTable thead, .responsiveTable tr th { position:absolute;	/* Hides table head but not using display none */ top:-1000em; left:-1000em; }
+	.responsiveTable tr { border:1px solid #eeeeee; border-bottom:2px solid #eeeeee;  margin:0 0 20px; }
+	.responsiveTable tr td:nth-child(1) { /* first column of the row */ border-left:none;}
+	.responsiveTable tr td:last-child { /* last column of the row */ border-right:none; }
+	.responsiveTable tr:last-child .td, .responsiveTable td { /* Column in the last row and column */ border-bottom:1px solid #eeeeee; }
+	.responsiveTable td:before { /* prints the value of data-label attribute before the column data */ font-weight:bold; padding-right:20px; line-height:27px; color:#174471; content:" "attr(data-label)"";	/* call the attribute value of data-label and adds a string // */ }
+	.responsiveTable tbody {display:block;}
+	.responsiveTable tr td {padding:5px 15px; width:auto !important;}
+	
+	.row { padding:0 20px;}
+	.topbar {width: 100%; text-align:right;}
+	.hide800 { display: none; }
+
+	
+	.kochkurseTeameventList .teameventMain .teameventContent {min-height: 237px;}
+	/*#optionen li { width: 32.6%; }
+	#optionen li + li { margin-left: 1%; } */
+	#optionen li h3 { font-size: 14px; line-height: 1.2em; }
+}
+@media only screen and (max-width: 749px) {
+	.responsiveSelectContainer select.responsiveMenuSelect, select.responsiveMenuSelect {
+    display: inline-block;
+    width: 30%;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 2px 10px 1px 10px;
+    height: auto;
+    background-color: #596063;
+    border: none;
+    line-height: 14px;
+    vertical-align: top;
+    max-width: 185px;
+    color: #fff;
+    outline: none;
+cursor:pointer;}
+}
+
+@media only screen and (max-width: 768px) {
+	.r-tabs .r-tabs-nav {display: none;}
+	.r-tabs .r-tabs-accordion-title {display: block;}
+
+	.iconBox { max-width: 393px; height: 131px; margin: -65.5px 0 0 -196.5px; }
+	.iconBox li { max-width: 131px; }
+	.iconBox li .icon { margin: 0 auto 11px;}
+	.iconBox li a { padding: 25px 0 15px; letter-spacing: 0.1em; font-size: 11px; line-height: 1.4em;}
+	.iconBox li .icon { height: 50px; width: 50px; }
+
+	.kontaktMain { margin-bottom: 30px; padding-bottom: 30px; }
+	.kontaktMssg { font-size: 14px; margin-bottom: 20px; margin-top: -10px; width: 100%; text-align: center; }
+	.kontaktButtons { float: none; text-align: center; width: 100%; }
+	.kontaktMain h2 {font-size: 26px;}
+	.teamGroupList ul li { width: 33.33%; }
+	.erlebniskochenList { padding: 0 0 20px; }
+
+	#tribe-events .bannerHight h1 {
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin: -38px 0 0;}
+
+	.anfahrtZumMain { margin-bottom: 20px; padding-bottom: 20px; }
+	.kontaktMain { margin-bottom: 0; }
+	.anfahrtZumLoft h2, .anfahrtZumHaus h2 { font-size: 22px; margin-bottom: 30px; }
+	.anfahrtZumBanner { text-align: center; width: 48%; height: 320px; }
+	.anfahrtZumBanner img { width: 100%; height: 100%; object-fit: cover; }
+	.rightContent { padding-left: 0; width: 100%; }
+	.rightContent.loftMap > div { height: 320px !important; }
+	.anfahrtZumMain .rightContent { padding-left: 48%; }
+	.erlebniskochenList .kochenListMain h3 { font-size: 22px; line-height: 26px; }
+	.teamGroupList h3 { margin-bottom: 20px; }
+	.Ohnequotes h2 { font-size: 30px; line-height: 30px; }
+	
+	.kochkurseTeameventList .teameventMain .teameventImg { margin-bottom: 30px; width: 100%; }
+	.kochkurseTeameventList .teameventMain .teameventImg img { width: 100%; }
+	.kochkurseTeameventList .teameventMain .teameventContent { width: 100%; }
+	.kochkurseTeameventList .teameventMain .teameventContentLeft { width: 100%; }
+	.kochkurseTeameventList .teameventMain .teameventImgRight { width: 100%; }
+	.teameventImgRight > img {width: auto;}
+	.blockContent .blockContentMain { margin-bottom: 30px; padding: 0; width: 100%; }
+	.sommerfestGrillkurs::before {margin-left: -10%;}
+	.weihnachtsfeier::before {margin-left: -4%; }
+
+	.leftBlock { border-right: medium none; margin-bottom: 30px; margin-right: 0; padding-right: 0; text-align: center; width: 100%; }
+	.rightBlock { float: right; text-align: center; width: 100%; }
+	.gutscheinBlock ul li { margin-bottom: 30px; margin-right: 0; width: 100%; }
+	#backtotop {display: none !important;}
+	/*.gruppen-inner-banner, .team-banner {height: 350px;}*/
+
+	.footerLeft { float: left; width: 100%; text-align: center; margin-bottom: 50px;}
+	.footerLeft br { display: none; }
+	.footerLinks li { display: inline-block; float: none; }
+	.footerRight { border: medium none; float: none; padding: 0; text-align: center; width: 100%; }
+	.footerRight .contactBtn {margin: 30px auto; width: 60%;}
+	.footerLeft h2 {font-size: 34px;}
+
+
+	/* .iconBox li a {padding: 20px 0; letter-spacing: 1px; } */
+
+	.fadeImgs img { float: none; width: 48.5%; }
+	.fadeImgs img:last-child { margin-left: 2%; }
+
+
+	.firmenGruppenBlock h2 { font-size: 30px; line-height: 30px; }
+	.tipBox h2 { font-size: 30px; }
+	.tipBox .subTitle { font-size: 11px; margin-bottom: 20px; }
+	.actualCourse h2, .hamburgLocation h2 { font-size: 26px;}
+
+	.newsLetter {padding: 40px 0;}
+	#mc4wp-form-1 {display: inline-block; width: auto;}
+	#mc4wp-form-1 input[type="text"] {width: 270px;}
+	#mc4wp-form-1 input[type="submit"]{padding: 5px 20px; margin-left: 0;}
+	.newsLetter h2 {font-size: 40px; line-height: 40px;}
+
+
+	/* #logo {margin: 0 0 20px; width: 100%; padding: 0 20px;} */
+	/* .topbar { height: auto; margin: 0; padding: 0 20px; position: inherit; right: inherit; top: inherit; width: 100%; text-align:center;} */
+	/* .callUs { text-align: center; margin-bottom: 15px;} */
+	/* .topMenu { text-align: center; width: 100%; margin-bottom: 10px;} */
+
+	/* .sideStrip { display:none;}	*/
+	.gruppen-inner-banner {height: 350px;}
+	.woocommerce table.shop_table_responsive tr td, .woocommerce-page table.shop_table_responsive tr td {
+    border-right: none !important;}
+    .woocommerce-cart .woocommerce .cart_totals table.shop_table td {
+    width: auto; }
+    .rightBlockBtns {
+    width: calc(48% - 10px);
+    width: 45%;}
+    .gutschein-code-eingeben {
+    width: calc(48% - 10px);
+    width: 45%;}
+    .gutschein-code-eingeben input[type="text"]{
+    	margin-bottom: 10px;
+    	max-width: 245px;
+    }
+    #optionen li{ width: 100% !important; margin-bottom:5px !important; height: 115px; text-align: left; display: block;}
+    #optionen > li:before, #optionen > li:after { content: ""; display: table; clear: both; }
+	#optionen li + li{ margin-left: 0; }
+	#optionen li h3 { font-size: 14px; padding: 0 15px; margin: 5% 0 0;}
+	#optionen li img { height: 115px; max-width: 100%; display: inline-block; width: 50%; object-fit: cover; float: left;}
+	#optionen li .desc { display: inline-block; width: 50%; float: left; max-height: 115px; height: 100%; overflow-y: scroll;}
+}
+
+@media only screen and (max-width: 600px) {
+	.teamGroupList ul li { height: 50%; width: 50%; }
+	.anfahrtZumLoft h2, .anfahrtZumHaus h2 { height: auto; background-position: center top; font-size: 20px; padding: 50px 0 0px 92px; text-align: left; }
+	.kochkurse-teamevent h2 { font-size: 22px; margin-bottom: 10px; }
+	.kochkurse-teamevent span { font-size: 16px; margin-bottom: 10px; }
+	.kochkurse-teamevent p {font-size: 14px;}
+
+	.sideStrip { display: none; }
+	.bannerSpacing { padding: 13px 0;}
+	.indexBanner { min-height: 250px; }
+	.indexBanner .sliderBanner .item img, .team-banner .img img, .team-banner .img img {margin-top: -15%;}
+
+	.kontaktMssg { font-size: 12px; }
+	.kontaktMssg span { display: block; font-size: 16px; }
+
+	.locationList li {float: left; margin: 0 0 22px; width: 100%;}
+	.verticalSliderWrap .bx-wrapper { width: 70%; }
+	.verticalSliderWrap .bx-pager { width: 30%; }
+
+	.locationList .verticalSlider li, .locationList .bx-viewport { width: 100% !important; }
+	.locationList .verticalSlider li a img { width: 100%; }
+	
+	.aktuelle-kochkurse-inner .actualCourseList .btns .btn {margin-bottom: 10px; margin-left: 0; min-width: 90%;}
+	.alsGutscheinBtn {margin-left: 0; min-width: 90%;}
+
+
+	.sieGenuss h2 { font-size: 22px; margin-bottom: 10px; }
+	.sieGenuss span { font-size: 16px; margin-bottom: 10px; }
+	.sieGenuss p {font-size: 14px;}
+
+	.auf-die-merkliste { padding: 30px 0; }
+	.auf-die-merkliste .btns .btn { margin-bottom: 10px; margin-left: 0 !important; min-width: 100%; }
+
+	.imgTag { width: 25%; }
+
+}
+
+@media only screen and (max-width: 580px) {
+	.rightBlockBtns {
+    width: calc(100%) !important;
+    width: 100% !important;
+    float: none;
+    margin-right: 0;
+    padding: 0 10px; }
+    .gutschein-code-eingeben {
+    width: calc(100%);
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    padding: 0 10px;}
+    .gutschein-code-eingeben input[type="text"], .gutschein-code-eingeben input[type="submit"] {
+    max-width: 50%;
+    width: 50%;
+    padding: 0; font-size: 12px;}
+
+    #logo {width: 74%; text-align: left;}
+	#logo img { width: 100%; max-width: 231px; }
+	#header { padding: 2px 0 5px;}
+	.menubar { padding: 7px 0 0; }
+	.team-banner, .indexBanner, .zurUbersicht-banner { margin-top: 90px; } 
+	.gutscheine-inner-banner { margin-top: 111px; }
+	.zurUbersicht { border-top: none;}
+	#bx-pager1 li { display: inline-block !important; }
+	.thumbsScrollSlider #bx-pager1 {
+		padding: 10px 0px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.topMenu { display: none; }
+	.responsiveSelectContainer select.responsiveMenuSelect, select.responsiveMenuSelect { display:  none !important; }
+	.topbar a.topbarWarenkorb { float: right; margin-right: -10px;}
+	.kontaktMain h2 {font-size: 20px;}
+	.kontaktleft, .kontaktRight { width: 100%;}
+
+	.single-tribe_events .bx-wrapper, .single-tribe_events .bx-viewport, .single-tribe_events .bx-wrapper img {
+		height: 200px;
+	}
+
+	.iconBox { max-width: 300px; height: 100px; margin: -50px 0 0 -150px; }
+	.iconBox li { max-width: 100px; }
+	.iconBox li .icon { margin: 0 auto 11px;}
+	.iconBox li a { padding: 15px 0 6px; letter-spacing: 0.05em; font-size: 10px; line-height: 1.4em;}
+	.iconBox li .icon { height: 40px; width: 40px; }
+
+.indexBanner .sliderBanner .item img, .team-banner .img img, .team-banner .img img {
+    margin-top: 0;
+    height: 250px;
+    min-width: 320px;
+}
+
+	.teamGroupList ul li { width: 260px; margin: 0 auto; float: none; height: 100%;}
+	.teamGroupList ul li .teamMain { padding: 85px 0; }
+
+	.erlebniskochenList .kochenListMain h3 { font-size: 20px; line-height: 22px; }
+	.kochkurse-teamevent {padding: 20px 0 0;}	
+	.bx-pager { padding: 15px; }
+
+	.Ohnequotes h2 { font-size: 20px; line-height: 24px; }
+	.sommerfestGrillkurs::before, .weihnachtsfeier::before {margin-left: -20%;}
+
+	.bannerHight h1 { font-size: 27px; line-height: 30px;}
+	.bannerHight h1 span {font-size: 14px; line-height: 18px;}
+	.zurUbersicht-banner { height: 180px; }
+	/*.gruppen-inner-banner, .team-banner {height: 200px;}*/
+
+	
+	.warenkorbMain .row { padding: 0; margin: 0; }
+
+	.gutscheinStaff {width: 100%; }
+	.erlebniskochenLoft { padding: 0 5px; width: 100%; }
+
+	.auf-die-merkliste p { margin-bottom: 20px; }
+	.auf-die-merkliste .fragenFon { margin-top: 0px; }
+	.kontaktMain h2 { margin-bottom: 20px; }
+
+	.erlebniskochenList .kochenListMain .erlebniskochenContent {border-top: medium none; padding-top: 0;}
+
+	.actualCourseList li { margin-bottom: 20px; margin-right: 0; width: 100%; }
+	.actualCourseList li + li { margin-left: 0; }
+	.hamburgLocationImg { margin-bottom: 20px; width: 100%; }
+	.hamburgLocationImg a img { width: 100%; }
+	
+	.aktuelle-kochkurse-inner .actualCourseList li {width: 100%; margin-right: 0;}
+	.aktuelle-kochkurse-inner .actualCourseList > li:nth-child(2n) {margin-left:0;}
+
+	.tipBox .btns .btn { min-width: 100%;}
+	.tipBox .btns .btn.mrgL10 {margin-left: 0; margin-top: 15px;}
+
+	.fadeImgs img {float: none; width: 48.5%;}
+	.fadeImgs img:last-child {margin-left: 2%;}
+
+	.firmenGruppenBlock h2 { font-size: 22px; line-height: 22px; }
+	.tipBox h2 { margin-bottom: 10px; font-size: 22px; }
+	.tipBox {padding: 20px 0;}
+	.actualCourse h2, .hamburgLocation h2 {font-size: 22px; margin-bottom:25px}
+
+	.newsLetter {padding: 20px 0; }
+	#mc4wp-form-1 input[type="text"] { margin-bottom: 20px; width: 100%; }
+	#mc4wp-form-1 input[type="submit"] { padding: 5px 0; width: 100%; }
+	.newsLetter h2 {font-size: 30px; line-height: 30px;}
+	.newsLetter .subTitle {padding: 0 40px;}
+
+	.actualCourseList li:last-child { margin-bottom: 0; }
+	.actualCourse, .hamburgLocation { padding: 20px 0 20px; }
+	/* .iconBox { height: auto; }
+	.iconBox { width: auto; display: block; margin: 20px; }
+	.iconBox > li:last-child a { margin-bottom: 0; } */
+	#footer { padding: 20px 0; }
+	.footerLeft { margin-bottom: 20px; }
+	.footerRight p { margin-bottom: 20px; }
+	.footerRight h3 { margin-bottom: 20px; }
+
+	.btnMenus li { display: block; }
+
+	.gutscheinOhne p { letter-spacing: 2px; }
+	.blockContent .blockContentMain:last-child {margin-bottom: 0;}
+	.kochkurse-teamevent .fragenFon { margin-top: 0; }
+	/*.kochkurseTeameventList .teameventMain .teameventContent p {margin: 0;}*/
+	.kochkurseTeameventList { margin-bottom: 30px; padding-bottom: 30px; }
+	.erlebniskochenList .kochenListMain {margin-bottom: 0;}
+
+	#mc4wp-form-1 { display: block; padding: 0 20px; }
+
+	.actualCourseList { width: auto; padding: 0 20px; }
+
+	.hamburgLocationBlock { padding-bottom: 0; }
+
+	.footerRight .contactBtn { width: auto; }
+
+	.btns .btn { font-size: 13px; }
+	.bxpagerfeatured a { display:  inline-block !important; margin: 0 0 !important; width:auto !important;}
+	
+	/* .iconBox { display: inline-block; width: 90%; }
+	.iconBox li { max-width: 100%; float: none; margin-right: 0;}
+	.iconBox li a br { display: none; } */
+	
+	.gruppen-inner-banner {height: 250px;}
+	/* .indexBanner { border-bottom: medium none; height: auto; margin-top: 0; padding: 0; overflow: visible;} */
+	/* .iconBox li a { margin-bottom: 20px;} */
+
+}
+
+@media only screen and (max-width: 320px) {
+	.team-banner {display: none;}
+	.bannerHight {display: none;}
+	.row{padding: 0 10px; box-sizing: border-box;}
+	.zurUbersicht, .kochkurseContent {margin-top: 90px;}
+	.actualCourseList .btns .btn { min-width: 88%; }
+	.actualCourseList .btns .btn.mrgL5 { margin-left: 0; margin-top: 10px; }
+	
+	.kochkurse-teamevent .btns .btn {min-width: 100%;}
+	.aktuelle-kochkurse-inner .actualCourseList .btns .btn {margin: 0 0 10px !important;}
+}
